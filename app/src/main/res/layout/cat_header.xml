@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:id="@+id/frame"
+    android:layout_height="wrap_content"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp"
+    android:clipToPadding="false">
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/filter"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        app:checkedIconEnabled="false"
+        app:textStartPadding="16dp"
+        app:textEndPadding="16dp"
+        app:chipBackgroundColor="@color/gray"
+        app:chipEndPadding="0dp"
+        app:chipStartPadding="0dp" />
+
+</FrameLayout>
